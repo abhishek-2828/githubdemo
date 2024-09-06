@@ -1,0 +1,63 @@
+.recordContainer{
+    margin: 5px;
+    margin-top: unset;
+    border-top: 2px solid white;
+    background-image: linear-gradient(to right top, #2a27ff, #0b3dfd, #004df8, #0059f2, #1264eb);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: "Ubuntu", sans-serif;
+    height: 90vh;
+    color: white;
+}
+
+
+.searchRecordContainer{
+    width: 40%;
+    overflow: auto;
+    height: 75vh;
+}
+
+
+
+.record{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 15px 0px;
+    border: 2px solid white;
+    color: white;
+}
+
+
+.index {
+    font-size: 25px;
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.recordText {
+    font-size: 25px;
+    flex: 1;
+    text-align: start;
+}
+
+
+
+.noRecordContainer{
+    margin: 5px;
+    margin-top: unset;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 90vh;
+}
+
+
+
+.searchRecordContainer:hover{
+    /* border-top: 2px solid grey;
+    border-bottom: 1px solid grey; */
+}

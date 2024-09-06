@@ -1,0 +1,74 @@
+.savedProfileContainer{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    margin: 5px;
+    margin-top: unset;
+    color: white;
+    border-top: 1px solid white;
+    font-family: "Ubuntu", sans-serif;
+    background-image: linear-gradient(to right top, #2a27ff, #0b3dfd, #004df8, #0059f2, #1264eb);
+}
+
+
+
+.userContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+
+.dataContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    border: 2px solid white;
+    height: 100px;
+    width: 45%;
+    margin: 20px;
+}
+
+
+.userData{
+    /* display */
+    flex: 1;
+}
+
+
+.userImg{
+    height: 80px;
+    width: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+.backBTnContainer{
+    margin: 10px 20px;
+
+}
+
+
+
+.errorMsgContainer{
+    height:90vh;
+    background-image: linear-gradient(to right top, #2a27ff, #0b3dfd, #004df8, #0059f2, #1264eb);
+    margin: 5px;
+    margin-top: unset;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-top: 1px solid white;
+
+}
+
+.errorMsg{
+    font-size: 20px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+}

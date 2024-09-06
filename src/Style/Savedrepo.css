@@ -1,0 +1,11 @@
+.savedRepo_container{
+    margin: 5px;
+    height: 90vh;
+    background-image: linear-gradient(to right top, #2a27ff, #0b3dfd, #004df8, #0059f2, #1264eb);
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: unset;
+    border-top: 1px solid white;
+
+
+}
