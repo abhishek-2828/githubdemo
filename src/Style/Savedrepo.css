@@ -1,11 +1,146 @@
 .savedRepo_container{
     margin: 5px;
-    height: 90vh;
     background-image: linear-gradient(to right top, #2a27ff, #0b3dfd, #004df8, #0059f2, #1264eb);
     color: white;
     font-family: "Ubuntu", sans-serif;
     margin-top: unset;
     border-top: 1px solid white;
-
-
 }
+
+
+
+.Container{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+  }
+  
+  
+  
+  .repoItem1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  
+  
+  .repoTitle{
+    margin: unset;
+    width: 85%;
+  }
+  
+  
+  
+  
+  .repoLinksContainer{
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: auto;
+    height: 25%;
+  }
+  
+  
+  .repoLinks{
+    color: wheat;
+    margin: unset;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: none; 
+  
+  }
+  
+  
+  a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .repoContainer{
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #b9beff, #959aff, #7075ff, #494dff, #0012ff);
+  
+  
+  
+  }
+  
+  
+  
+  .repoNameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    color: black;
+    height: 20%;
+    border-bottom: 2px solid black;
+  }
+  
+  .repoDetailContainer{
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  .repoBio{
+    height: 70%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .repoContainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  
+  .repoLinks:hover{
+    background-color: rgb(255, 227, 175);
+  }
+  
+  
+  
+  .noDataContainer,
+  .errorContainer{
+    border: 2px solid grey;
+    height: 90vh;
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #2a27ff, #0b3dfd, #004df8, #0059f2, #1264eb);
+  
+  }
+  
+  .noDataMessage,
+  .errorMessage{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    color: white;
+  
+  }
+  

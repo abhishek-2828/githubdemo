@@ -3,7 +3,6 @@
     margin: 0px 5px;
     font-family: "Ubuntu", sans-serif;
     margin-bottom: unset;
-
  }
 
 
@@ -132,10 +131,18 @@
 
 
 
+.repoItem1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 
 .repoTitle{
   margin: unset;
+  width: 85%;
 }
 
 
@@ -147,6 +154,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: auto;
+  height: 25%;
 }
 
 
@@ -219,12 +228,6 @@ a:link {
 }
 
 
-.repoLinksContainer{
-  margin-top: auto;
-  height: 25%;
-}
-
-
 .repoContainer:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
@@ -239,7 +242,7 @@ a:link {
 .noDataContainer,
 .errorContainer{
   border: 2px solid grey;
-  height: 48vh;
+  height: 90vh;
   margin: 0px 5px;
   display: flex;
   justify-content: center;
