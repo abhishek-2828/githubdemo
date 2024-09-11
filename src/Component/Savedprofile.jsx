@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import '../Style/Savedprofile.css';
 import Button from 'react-bootstrap/Button';
-import axios from 'axios'; // Ensure axios is installed and imported
+import axios from 'axios';
 
 const Savedprofile = ({ savedProfiles }) => {
 
@@ -31,6 +31,7 @@ const Savedprofile = ({ savedProfiles }) => {
 
 
     if (error) {
+
         return (
             <div className="errorMsgContainer">
                 <h5 className="errorMsg">OOPS! <br></br>Something Wrong....Please Try After Some Time!!!</h5>
@@ -64,7 +65,6 @@ const Savedprofile = ({ savedProfiles }) => {
                     </Button>
                 </div>
             </div>
-
         );
     }
 };

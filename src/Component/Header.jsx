@@ -13,7 +13,7 @@ const Header = () => {
 
             <div className='linksContainer'>
                 <div className='linksContainer12'>
-                    <NavLink to="/" className={({ isActive }) => (isActive ? 'links aciveLinks' : `links`)}>Home</NavLink>
+                    <NavLink to="/Home" className={({ isActive }) => (isActive ? 'links aciveLinks' : `links`)}>Home</NavLink>
                     <NavLink to="/saved-profile" className={({ isActive }) => (isActive ? 'links aciveLinks' : `links`)}>Saved Profile</NavLink>
                     <NavLink to="/saved-repository" className={({ isActive }) => (isActive ? 'links aciveLinks' : `links`)}>Saved Repository</NavLink>
                     <NavLink to="/search-history" className={({ isActive }) => (isActive ? 'links aciveLinks' : `links`)}>Search History</NavLink>
